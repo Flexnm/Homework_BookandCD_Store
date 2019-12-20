@@ -1,6 +1,6 @@
 package cdAndBookStore;
 
-import java.util.Arrays;
+
 
 public class StoreTest {
 	public static void main(String[] args) {
@@ -31,15 +31,16 @@ public class StoreTest {
 		
 		System.out.println(store.getBook(1));
 		
-		System.out.println(Arrays.toString(store.seeStoreItems()));
+		store.seeStoreItems();
 		
 		
-	/*	store.removeBook(1);
-	*	store.removeCD(1);
-	*	
-	*	System.out.println(Arrays.toString(store.seeBooks()));
-	*	System.out.println(Arrays.toString(store.seeCDs()));
-	*/
+		store.removeBook(1);
+		store.removeCD(2);
+		
+		store.seeStoreItems();
+		
+		
+	
 	}
 
 }

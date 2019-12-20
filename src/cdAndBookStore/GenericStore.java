@@ -8,6 +8,6 @@ public interface GenericStore {
 	void addCD(CD newCD);
 	void removeCD(int CDIndex);
 	 String getCD(int CDIndex);
-	 Item[] seeStoreItems();
+	 void seeStoreItems();
 
 }
